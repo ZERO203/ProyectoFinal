@@ -7,13 +7,15 @@ import Footer from './components/footer'
 import Products from './pages/products'
 import Contact from './pages/contact'
 import About from './pages/about'
-import Account from './pages/account'
-import Home from './pages/Home'
+import Home from './pages/home'
 import ProductAdmin from './admin/productsAdmin'
 import { CartProvider } from './components/cartContext'
-
+import ProductView from './pages/productView'
+import SignIn from './components/signin'
+import SignUp from './components/signup'
 
 function App() {
+
   return(
     <>  
       <div className="bg-gray-400 min-h-screen">
@@ -25,10 +27,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
             <Route path="/productos" element={<Products></Products>}></Route>
+            <Route path="/productos/:productId" element={<ProductView></ProductView>}></Route>
             <Route path="/contacto" element={<Contact></Contact>}></Route>
-            <Route path="/nosotros" element={<About></About>}></Route>
-            <Route path="/mi-cuenta" element={<Account></Account>}></Route>
+            <Route path="/nosotros" element={<About></About>}></Route>   
             <Route path="/admin" element={<ProductAdmin></ProductAdmin>}></Route>
+            <Route path="/ingresar" element={<SignIn></SignIn>}></Route>
+            <Route path="/registro" element={<SignUp></SignUp>}></Route>
             <Route path="*" element={<Navigate to="/"></Navigate>}></Route>
           </Routes>
         

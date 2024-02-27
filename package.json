@@ -11,6 +11,7 @@
     "mock:api": "json-server --watch https://65d693b3f6967ba8e3be3df3.mockapi.io/api/productos"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
     "axios": "^1.6.7",
     "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",

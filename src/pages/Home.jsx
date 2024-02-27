@@ -1,4 +1,4 @@
-
+import "../App.css"
 
 function Home () {
   return (
@@ -10,25 +10,25 @@ function Home () {
     </div>
     <div className="flex flex-wrap md:-m-2 -m-1">
       <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://images.unsplash.com/photo-1702468515419-bcb73ca12816?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <div className="md:p-2 p-1 w-1/2 rotate">
+          <img alt="gallery" className="w-full object-cover h-full object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1702468515419-bcb73ca12816?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
-        <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://images.unsplash.com/photo-1507470855518-469f3b3dad25?q=80&w=1505&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <div className="md:p-2 p-1 w-1/2 rotate2">
+          <img alt="gallery" className="w-full object-cover h-full object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1507470855518-469f3b3dad25?q=80&w=1505&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
-        <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <div className="md:p-2 p-1 w-full rotate3">
+          <img alt="gallery" className="w-full h-full object-cover object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
       </div>
-      <div className="flex flex-wrap w-1/2">
-        <div className="md:p-2 p-1 w-full">
-          <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://images.unsplash.com/photo-1694466642661-a5593fd31108?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+      <div className="flex flex-wrap w-1/2 ">
+        <div className="md:p-2 p-1 w-full rotate4">
+          <img alt="gallery" className="w-full h-full object-cover object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1694466642661-a5593fd31108?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
-        <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <div className="md:p-2 p-1 w-1/2 rotate5">
+          <img alt="gallery" className="w-full object-cover h-full object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
-        <div className="md:p-2 p-1 w-1/2">
-          <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://images.unsplash.com/photo-1614179924047-e1ab49a0a0cf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+        <div className="md:p-2 p-1 w-1/2 rotate6">
+          <img alt="gallery" className="w-full object-cover h-full object-center block hover:scale-95 transition duration-300 ease-in-out" src="https://images.unsplash.com/photo-1614179924047-e1ab49a0a0cf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
         </div>
       </div>
     </div>

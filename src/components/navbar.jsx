@@ -2,17 +2,23 @@ import { NavLink } from "react-router-dom"
 import React, { useState } from 'react'
 import { useCart } from '../components/cartContext'
 import CartModal from './cartModal'
+import AccountOptions from './accountOptions'
 
 function Navbar() {
 
     const { cartItems } = useCart();
     const [isCartModalVisible, setIsCartModalVisible] = useState(false);
 
+    const [showOptions, setShowOptions] = useState(false)
+
     const btnLink = "mr-5 hover:text-green-500 cursor-pointer font-bold " 
-    const activeLink = "mr-5 text-green-500 cursor-pointer font-bold text-lg"
+    const activeLink = "mr-5 text-green-500 cursor-pointer font-bold "
     
-    const btnLog = "inline-flex items-center mr-4 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:text-green-500 rounded text-base mt-4 md:mt-0"
-    const btnGin = "inline-flex items-center mr-4 bg-gray-800 border-0 py-1 px-3 focus:outline-none text-green-500 rounded text-lg mt-4 md:mt-0"
+    // const btnLog = "inline-flex items-center mr-4 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:text-green-500 rounded text-base mt-4 md:mt-0"
+    // const btnGin = "inline-flex items-center mr-4 bg-gray-800 border-0 py-1 px-3 focus:outline-none text-green-500 rounded  mt-4 md:mt-0"
+
+    const btnDash = "flex mx-auto text-white bg-black border-0 py-1 px-6 focus:outline-none hover:bg-green-500 rounded  font-bold"
+    const btnBoard = "flex mx-auto text-white bg-black border-0 py-1 px-6 focus:outline-none bg-green-500 rounded  font-bold"
 
     
   return (
@@ -42,14 +48,22 @@ function Navbar() {
         </div>
         
     </nav>
-   
-    <NavLink to="/mi-cuenta" className={({isActive}) => isActive?btnGin:btnLog}>
-    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-7 h-7 ml-0 pr-2" viewBox="0 0 24 24">
+
+    <NavLink to="/admin" className={({isActive}) => isActive?btnBoard:btnDash}>DASHBOARD</NavLink>
+    <div className="relative">
+    <button onClick={() => setShowOptions(!showOptions)} className=" inline-flex items-center mr-4 bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-green-500 text-base mt-4 md:mt-0 rounded-xl right-10 font-bold">
+    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="w-7 h-7 ml-0 pr-2" viewBox="0 -1 30 30">
     <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
     <circle cx="12" cy="7" r="4"></circle>
     </svg>
         Mi cuenta
-    </NavLink>
+    </button>
+    {showOptions && <AccountOptions onClose={(SignUp) => {
+    setShowOptions(false)
+  // Opcionalmente, puedes manejar la navegación aquí si decides hacer algo más al cerrar
+    }} />}
+    </div>
+    
     
   </div>
 </header>

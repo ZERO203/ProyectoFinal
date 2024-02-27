@@ -1,0 +1,84 @@
+@keyframes rotateImage {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(-360deg);
+    }
+  }
+
+  .rotate {
+    animation: rotateImage;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate2Image {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rotate2 {
+    animation: rotate2Image;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate3Image {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rotate3 {
+    animation: rotate3Image;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate4Image {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(360deg);
+    }
+  }
+  
+  .rotate4 {
+    animation: rotate4Image;
+    animation-duration: 3s;
+  }
+  
+  @keyframes rotate5Image {
+    from {
+        transform: rotateX(0deg);
+      }
+      to {
+        transform: rotateX(-360deg);
+      }
+  }
+  
+  .rotate5 {
+    animation: rotate5Image;
+    animation-duration: 3s;
+  }
+
+  @keyframes rotate6Image {
+    from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(-360deg);
+      }
+  }
+
+  .rotate6 {
+    animation: rotate6Image;
+    animation-duration: 3s;
+  }
+  
