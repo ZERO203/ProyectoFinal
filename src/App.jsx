@@ -7,12 +7,13 @@ import Footer from './components/footer'
 import Products from './pages/products'
 import Contact from './pages/contact'
 import About from './pages/about'
-import Home from './pages/home'
+import Home from './pages/Home'
 import ProductAdmin from './admin/productsAdmin'
 import { CartProvider } from './components/cartContext'
 import ProductView from './pages/productView'
 import SignIn from './components/signin'
 import SignUp from './components/signup'
+
 
 function App() {
 
