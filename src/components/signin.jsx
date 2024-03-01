@@ -1,5 +1,5 @@
 
-import Computer from '../assets/computers.jpg'
+import Fondo from '../assets/fondo.png'
 
 function SignIn() {
     return (
@@ -9,7 +9,7 @@ function SignIn() {
                     <source src={Video} type="video/mp4" />
                     Tu navegador no soporta videos HTML5.
                 </video> */}
-                <img src={Computer} alt={Computer} className="min-h-screen"/>
+                <img src={Fondo} alt={Fondo} className="min-h-screen"/>
             </div>
         <div className="container relative flex items-center justify-center min-h-[100vh] px-6  pb-20 md:left-1/3">
             <form className=" w-90 max-w-md p-12 border-slate-900 ">

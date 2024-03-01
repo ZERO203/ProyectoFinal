@@ -1,5 +1,5 @@
 
-import Computer from '../assets/computers.jpg'
+import TecladoImage from '../assets/tecladoimage.png'
 
 function SignUp() {
 
@@ -13,7 +13,7 @@ function SignUp() {
                     <source src={Video} type="video/mp4" />
                     Tu navegador no soporta videos HTML5.
                 </video> */}
-                <img src={Computer} alt={Computer} className="min-h-screen"/>
+                <img src={TecladoImage} alt={TecladoImage} className="min-h-screen min-w-full"/>
             </div>
         <div className="container relative flex items-center justify-center min-h-[100vh] px-6 md:left-1/3 pb-20 ">
             <form class=" w-90 max-w-md p-12 border-slate-900 ">
