@@ -1,26 +1,23 @@
 
-import Video from '../assets/xbox.mp4';
+// import Video from '../assets/xbox.mp4';
+// import Fondo from '../assets/fondo.png'
+import Computer from '../assets/computers.jpg'
 
 function SignIn() {
     return (
         <section className="relative min-h-[100vh] overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full">
-                <video autoPlay muted loop className="object-cover w-full h-full" style={{ filter: 'blur(6px)' }}>
+                {/* <video autoPlay muted loop className="object-cover w-full h-full" style={{ filter: 'blur(3px)' }}>
                     <source src={Video} type="video/mp4" />
                     Tu navegador no soporta videos HTML5.
-                </video>
+                </video> */}
+                <img src={Computer} alt={Computer} className="min-h-screen"/>
             </div>
-        <div className="container relative flex items-center justify-center min-h-[100vh] px-6 mx-auto">
-            <form className=" w-90 max-w-md">
+        <div className="container relative flex items-center justify-center min-h-[100vh] px-6  pb-20 md:left-1/3">
+            <form className=" w-90 max-w-md p-12 border-slate-900 ">
 
-                <h2 className=" text-blue-700  text-center text-3xl font-extrabold mb-12 border-b-green-600 border-b-4 mx-12">INICIA SESION</h2>
-
-                <div className="flex justify-center mx-auto mb-12">
-                <svg width="90px" height="90px" viewBox="0 -117.5 1259 1259" className="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M393.644285 971.514095l472.373142 0 0 52.485905-472.373142 0 0-52.485905Z" fill="#17202A"></path><path d="M524.859047 652.399795h209.943618v345.357253h-209.943618z" fill="#AEB6BF"></path><path d="M708.559713 678.642747V970.989236h-157.457714V678.642747h157.457714m52.485905-52.485904H498.616094V1023.475141h262.429524V626.156843z" fill="#17202A"></path><path d="M26.242952 26.242952l1207.175808 0 0 734.802666-1207.175808 0 0-734.802666Z" fill="#212F3C"></path><path d="M1207.175807 52.485905v682.31676H52.485905V52.485905h1154.689902m0-52.485905H52.485905a52.485905 52.485905 0 0 0-52.485905 52.485905v682.31676a52.485905 52.485905 0 0 0 52.485905 52.485905h1154.689902a52.485905 52.485905 0 0 0 52.485905-52.485905V52.485905a52.485905 52.485905 0 0 0-52.485905-52.485905z" fill="#17202A"></path><path d="M52.485905 763.669913a26.242952 26.242952 0 0 1-26.242953-26.242952v-100.510508h1207.175808v100.248078a26.242952 26.242952 0 0 1-26.242953 26.242952z" fill="#AEB6BF"></path><path d="M1207.175807 663.159405v74.267556H52.485905v-74.267556h1154.689902m52.485905-52.485904H0v126.49103a52.485905 52.485905 0 0 0 52.485905 52.485905h1154.689902a52.485905 52.485905 0 0 0 52.485905-52.485905v-126.49103z" fill="#17202A"></path></g></svg>
-                </div>
-    
-                
-    
+                <h2 className=" text-gray-100  text-center text-2xl font-extrabold mb-12 border-b-gray-500 border-b-4 mx-12">INICIA SESION</h2>
+       
                 <div className="relative flex items-center mt-8">
                     <span className="absolute">
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -40,9 +37,7 @@ function SignIn() {
     
                     <input type="password" className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-green-600 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Contraseña" required />
                 </div>
-    
-               
-    
+        
                 <div className="mt-6">
                     <button className="w-full px-6 py-3 text-1x2 font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                         Ingresar

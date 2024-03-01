@@ -53,7 +53,7 @@ const ProductAdmin = () => {
   return (
     
     <section className="text-gray-400 bg-gray-900 body-font">
-    <div className="container px-5 py-14 mx-auto min-h-screen ">
+    <div className="container px-5 pb-14 pt-16 mx-auto min-h-screen ">
       <h2 className="text-center text-2xl font-bold mb-8 text-white">Administración de Productos</h2>
       <div className="flex flex-wrap container gap-2 mb-20 justify-center">
         <input

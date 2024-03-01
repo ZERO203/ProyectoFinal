@@ -14,7 +14,7 @@ function CartModal() {
 
   return (
     
-    <div className="absolute z-10 inset-x-0 mx-auto mt-8 sm:mt-2 sm:w-2/12  bg-gray-500 shadow-lg rounded-3xl">
+    <div className="absolute z-10 inset-x-0 mx-auto mt-8 sm:mt-2 sm:w-1/5  bg-gray-500 shadow-lg rounded-3xl">
       <div className="flex justify-between text-white bg-black pr-8 pl-4 py-2 text-sm sm:text-base rounded-t-xl font-bold">
         <span>Producto</span>
         <span>Precio</span>

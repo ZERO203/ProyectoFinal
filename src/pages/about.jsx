@@ -5,7 +5,7 @@ const About = () => {
   return (
     
     <section className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-24 mx-auto ">
+  <div className="container px-5 pb-24 pt-10 mx-auto ">
     <div className="flex flex-col text-center w-full mb-20 mt-8">
       <h1 className="text-2xl font-medium title-font mb-4 text-white tracking-widest">NUESTRO EQUIPO 💪</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Quiero presentarles nuestro equipo de desarrollo del sitio web, destacando el sistema de autenticación mejorado que permite una navegación fluida entre el inicio de sesión y el registro. Hemos priorizado la usabilidad y la estética, enfocándonos en una experiencia de usuario intuitiva. Agradezco cualquier feedback para seguir optimizando nuestro proyecto.</p>
@@ -13,7 +13,7 @@ const About = () => {
     <div className="flex flex-wrap -m-4 mt-32 mb-28">
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/360097316_1242544243297688_8655519906544740058_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeGztgPbsXLpZsPy5gnjTFw6ynvgCLZ-3sjKe-AItn7eyAny6rNJr_FWPHcJuUW1WbVGbv1lzZq9_vAnGwQOhWiS&_nc_ohc=jD0se8_B-EgAX_4r0pV&_nc_ht=scontent.flim12-1.fna&oh=00_AfD-EHSUsa8kkIyFHb624x7PMW_7A95K0wE8_95PQFqAqg&oe=65DCDEC4" />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://scontent.flim1-1.fna.fbcdn.net/v/t39.30808-6/346847838_925435798752637_5545867011019836602_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeFIf0vJqJLylpVi5RqX0GHVx4ZTkYxn7VrHhlORjGftWipLZTjKeHsbVIkE6GNpOzOItLmVQaqXPxM1MExTHbAV&_nc_ohc=u3XqwGzIQ64AX9-p598&_nc_ht=scontent.flim1-1.fna&oh=00_AfDAq1-zvqIpcDXqV-08DF-v4ouq8euBdZojRQi_iQSz9w&oe=65E2EBEF" />
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-white">Jose Sanchez</h2>
             <h3 className="text-gray-500 mb-3">Frontend Developer</h3>
@@ -40,7 +40,7 @@ const About = () => {
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/428637820_1777906149397191_8141575816951342953_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHi-ZvIUHsqyG11AgXrIbGRv91cCFnGTE2_3VwIWcZMTSo8xlij9PvlETttmfjVsk9ddZlpHZBcFueblxIFuqtV&_nc_ohc=wt6iI7ITC4EAX-FJZty&_nc_ht=scontent.flim12-1.fna&oh=00_AfDA79nXyMI70ngk0D0i8qYlILMnstv-dpkXPOf24pWLUQ&oe=65DD91FB" />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://scontent.flim1-1.fna.fbcdn.net/v/t39.30808-6/428637820_1777906149397191_8141575816951342953_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHi-ZvIUHsqyG11AgXrIbGRv91cCFnGTE2_3VwIWcZMTSo8xlij9PvlETttmfjVsk9ddZlpHZBcFueblxIFuqtV&_nc_ohc=JftL-g0iCEUAX9A9pgK&_nc_ht=scontent.flim1-1.fna&oh=00_AfCgzPx7aws70-hnSaVDqFv8wXUd-DYYS-09XWbl-QRp-w&oe=65E380BB" />
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-white">Juan Ruiz</h2>
             <h3 className="text-gray-500 mb-3">Fullstack Developer</h3>

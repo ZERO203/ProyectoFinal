@@ -23,8 +23,8 @@ function AccountOptions({ onClose }) {
 
     return (
       <div ref={optionsRef} className="absolute z-10 right-0 py-2 sm:mt-2 w-11/12 sm:w-48 bg-gray-500 shadow-lg rounded-2xl flex flex-col ">
-        <NavLink to="/ingresar" onClick={() => onClose(false)} className=" text-white bg-green-900 hover:bg-green-600 text-center py-1 text-sm sm:text-base rounded-xl font-bold mr-2 ml-2 ">Ingresar</NavLink>
-        <NavLink to="/registro" onClick={() => onClose(true)} className=" text-white bg-green-900 hover:bg-green-600 text-center py-1 text-sm sm:text-base mt-1.5 rounded-xl font-bold mr-2 ml-2">Registro</NavLink>
+        <NavLink to="/ingresar" onClick={() => onClose(false)} className=" text-white bg-gray-800 hover:bg-green-500 text-center py-1 text-sm sm:text-base rounded-xl font-bold mr-2 ml-2 ">Ingresar</NavLink>
+        <NavLink to="/registro" onClick={() => onClose(true)} className=" text-white bg-gray-800 hover:bg-green-500 text-center py-1 text-sm sm:text-base mt-1.5 rounded-xl font-bold mr-2 ml-2">Registro</NavLink>
       </div>
     );
     

@@ -3,7 +3,7 @@ import "../App.css"
 function Home () {
   return (
     <section className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+  <div className="container px-5 pb-24 pt-24 mx-auto flex flex-wrap">
     <div className="flex w-full mb-20 flex-wrap">
       <h1 className="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4">🎮 Productos Gamer 💻</h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Explora nuestra selección exclusiva de computadoras gamer: rendimiento excepcional, gráficos de vanguardia y velocidades de procesamiento ultrarrápidas para ofrecerte la mejor experiencia de juego. Diseñadas para satisfacer las demandas de los gamers más exigentes.</p>

@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <section className="text-gray-400 bg-gray-900 body-font relative">
-  <div className="container px-5 py-24 mx-auto">
+  <div className="container px-5 pb-28 pt-16 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contáctanos 📧</h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">¡En Kazali Store estamos abiertos a escucharte! Toda duda, puedes hacerlo enviandonos un correo. Aprovechamos para invitarte a que nos sigas en nuestras redes sociales donde constantemente subimos nuevo contenido que podría interesarte.</p>
