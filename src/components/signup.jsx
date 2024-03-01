@@ -1,5 +1,4 @@
-import Video from '../assets/xbox.mp4';
-import fondo from '../assets/fondo.png'
+
 import Computer from '../assets/computers.jpg'
 
 function SignUp() {

@@ -1,6 +1,4 @@
 
-// import Video from '../assets/xbox.mp4';
-// import Fondo from '../assets/fondo.png'
 import Computer from '../assets/computers.jpg'
 
 function SignIn() {
